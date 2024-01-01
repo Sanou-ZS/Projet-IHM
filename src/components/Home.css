@@ -1,0 +1,53 @@
+.HomeCss{
+
+  padding-top: 0.5rem ;
+  color: white;
+  height: 100%;
+  background: radial-gradient(circle, var(--colr3), var(--colr1));
+  background: linear-gradient(  #f6eded, #97b9fb,  var(--colr1) ,  #f3edf1);
+ 
+  .blocks {
+    margin: 13rem 5rem 8rem  ;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+  }
+
+.block {
+background-image: linear-gradient(to right, var(--colr1),black) ;
+box-shadow: var(--colr1) 0px 0px 0px 2px inset, rgb(97, 86, 86) 10px -10px 0px -3px, var(--colr1) 10px -10px, rgb(101, 97, 97) 20px -20px 0px -3px, var(--colr1) 20px -20px, rgb(90, 87, 87) 30px -30px 0px -3px, var(--colr1) 30px -30px, rgb(84, 80, 80) 40px -40px 0px -3px,var(--colr1) 40px -40px;
+border-radius: 15px;
+width: 20%;
+height: 35vh;
+text-align: center;
+font-size: large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a h1 {
+  padding-top: 4rem;
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+.block{
+  width: 29%;
+  height: 30vh;
+}
+}
+
+@media screen and (min-width: 768px)and (max-width:1052px) {
+  .block{
+    width: 29%;
+    font-size: small;
+  }
+  
+  }
+
+}
+
+

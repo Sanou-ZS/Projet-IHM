@@ -1,0 +1,68 @@
+.MetaphorCss{
+  
+     .colors {
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+      width: 13rem;
+      right: 0.2rem;
+      top: 7.5rem;
+    }
+    
+    .ButColor {
+      width: 50px;
+      height: 6vh;
+      border-radius: 25%;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+
+    .ButColor:hover {
+      transform: scale(1.1);
+    }
+    
+    .ButColor:focus {
+      outline: none;
+      box-shadow: 0 5px 10px 5px rgb(60, 60, 60);
+    }
+    
+  
+     .blockOverlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    @media screen and (max-width: 768px) {
+      .colors{
+        position:absolute;
+        top: 3.5rem;
+        width: 14rem;
+      }
+
+      .ButColor {
+        height: 4vh;
+        width: 3rem;
+        font-size: 11px;
+     } 
+    
+     .showBlock{
+      width: 400px ;
+      padding: 10px ;
+      font-size: x-large;
+     }
+     .showBlock h1{
+      font-size: x-large;
+     }
+    }
+
+}
